@@ -1,0 +1,56 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif; /* Use a stylish font */
+    background-color: #0d0d0d; /* Darker background color */
+    color: #fff;
+}
+
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+header {
+    background-color: #1a1a1a; /* Darker header background */
+    padding: 20px 0;
+}
+
+header h1 {
+    text-align: center;
+    font-size: 36px; /* Larger font size for header */
+    color: #ffffff; /* Header text color */
+}
+
+.section {
+    padding: 50px 0;
+}
+
+h2 {
+    text-align: center;
+    font-size: 24px; /* Larger font size for section headings */
+    color: #ffffff; /* Section heading text color */
+}
+
+footer {
+    background-color: #1a1a1a; /* Darker footer background */
+    padding: 20px 0;
+    text-align: center;
+}
+
+footer p {
+    margin: 0;
+    color: #ffffff; /* Footer text color */
+}
+
+
+#snowfall {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+    z-index: -1;
+}
